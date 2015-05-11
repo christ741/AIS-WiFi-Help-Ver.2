@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<style type="text/css">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+
+	
+	
+	
+}
+}
+.yellow {
+	background-image: url(Core%20Images/Original/Foreground%20Original.jpg);
+}
+.Blue {
+	background-image: url(Core%20Images/Original/Wrap%20Original.jpg);
+}
+</style>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body background="Core Images/Original/Background Red.jpg">
+
+
+
+
+
+ <div class="container">
+
+  <div class="page-header">
+    	<h1 class="Blue"><span ><img src="Title images/TITLE handbook.png"/></span><img src="Icons/Logo.png" alt="logo" /></h1>
+   </div>
+
+	<div class="yellow">Something in here maybe ??</div>
+    
+  <div class="yellow">
+        <div class="col-xs-10 col-sm-12 col-lg-10" id="apDiv5"> <h3>
+hellow !!!</div>
+   </div>
+      
+ 
+
+
+    
+      <div class="row">
+        <div class="yellow" ><a href=>Helo</a></div>
+        <div class="yellow" ><a href=>Halo</a></div>
+        <div class="yellow" ><a href=>Hollow</a></div>
+      </div>
+
+
+</div> <!--/container -->
+ 
+  
+
+</body>
+</html>
