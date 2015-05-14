@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<style type="text/css">
+.comicbg {
+	background-image: url(../Core%20Images/comic%20paper.jpg);
+}
+.Logo {
+	border-top-style: outset;
+	border-right-style: outset;
+	border-bottom-style: outset;
+	border-left-style: outset;
+}
+.blue {
+	background-image: url(../Core%20Images/Original/Wrap%20Original.jpg);
+}
+</style>
+</head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<body background="../Core Images/Original/Background Red.jpg">
+
+<div class= "container comicbg">
+
+<div class="Logo">
+  <h1><img src="../Icons/Logo.png" width="600" height="158" alt="Logo" /></h1>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-4 blue"><h1>Login</h1></div>
+        <div class="col-md-4 blue"><h1>Help</h1></div>
+        <div class="col-md-4 blue"><h1>Halo</h1></div>
+  </div>
+
+
+
+
+</div>
+
+
+
+</body>
+</html>

@@ -8,40 +8,47 @@
 <style type="text/css">
 
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
 <!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 
 <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
 
+
 	
 	
-	
-}
-}
-.yellow {
-	background-image: url(Core%20Images/Original/Foreground%20Original.jpg);
-}
+
+
 .Blue {
 	background-image: url(Core%20Images/Original/Wrap%20Original.jpg);
+}
+.Yellow {
+	background-image: url(Core%20Images/Original/Foreground%20Original.jpg);
+}
+.comicpage {
+	background-image: url(Core%20Images/comic%20paper.jpg);
+	margin-top: 50px;
+	margin-right: 350px;
+	margin-left: 250px;
 }
 </style>
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 </head>
 <body background="Core Images/Original/Background Red.jpg">
+<div class="container">
 
 
 
 
-
- <div class="container">
+<div class="comicpage">
 
   <div class="page-header">
-    	<h1 class="Blue"><span ><img src="Title images/TITLE handbook.png"/></span><img src="Icons/Logo.png" alt="logo" /></h1>
+    	<h1 class="comicpage"><span ></span><img src="Icons/Logo.png" alt="logo" align="right" /></h1>
+
    </div>
 
 	<div class="yellow">Something in here maybe ??</div>
@@ -55,10 +62,10 @@ hellow !!!</div>
 
 
     
-      <div class="row">
-        <div class="yellow" ><a href=>Helo</a></div>
-        <div class="yellow" ><a href=>Halo</a></div>
-        <div class="yellow" ><a href=>Hollow</a></div>
+<div class="row">
+        <div class="Blue" id="apDiv14"><a href="Subpages/Concept.html">Concept</a></div>
+    <div class="Blue" id="apDiv15"><a href="Subpages/Application.html">Application</a></div>
+    <div class="Blue" id="apDiv16"><a href="Subpages/Conclusion.html">Conclusion</a></div>
       </div>
 
 
