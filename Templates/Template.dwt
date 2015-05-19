@@ -9,7 +9,7 @@
 <!-- TemplateEndEditable -->
 <style type="text/css">
 .comicbg {
-	background-image: url(../Core%20Images/comic%20paper.jpg);
+	background-image: url(Core%20Images/comic%20paper.jpg);
 }
 .Logo {
 	border-top-style: outset;
@@ -18,7 +18,7 @@
 	border-left-style: outset;
 }
 .blue {
-	background-image: url(../Core%20Images/Original/Wrap%20Original.jpg);
+	background-image: url(Core%20Images/Original/Wrap%20Original.jpg);
 }
 
 .content {
@@ -26,7 +26,14 @@
     margin:80px;
     padding:120px;
 }
-	</style>
+	#apDiv1 {
+	left:176px;
+	top:7px;
+	width:337px;
+	height:195px;
+	z-index:1;
+}
+</style>
 </head>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
@@ -36,21 +43,47 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-<body background="../Core Images/Halftone/Background Red Halftone.jpg"  >
+<body background="../Core Images/Halftone/halftone-background.jpg"  >
+<!-- TemplateBeginEditable name="headstyle" -->headstyle<!-- TemplateEndEditable -->
+
+
 <!-- TemplateBeginEditable name="Content" -->
-<div class= "container comicbg">
+<div class="Logo"></div>
 
-<div class="Logo">
-  <h1><img src="../Icons/Logo.png" width="548" height="136" alt="Logo" /></h1>
-</div>
+<div class= "container comicbg ">
 
-
-
-<div class=" nav">
-    	<div class="col-md-4 blue"><h1>Login</h1></div>
-        <div class="col-md-4 blue"><h1>Help</h1></div>
-        <div class="col-md-4 blue"><h1>Halo</h1></div>
-</div>
+  <div><img src="../Title images/TITLE Login.png" width="250" height="200" /><img src="../Icons/Logo.png" alt="Logo" width="548" height="136" align="right" /></div>
+<nav class="navbar navbar-inverse">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">HandBook</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+</nav>
 
 <div><br />
  <br /><br />
@@ -59,7 +92,7 @@
     	<div class="col-md-4 "><h1>Login</h1></div>
         <div class="col-md-4 "><h1>Help</h1></div>
         <div class="col-md-4 "><h1>Halo</h1></div>
-  </div>
+</div>
 
 <div class="panel-footer">
 <img src="../Icons/CIsco.png" width="400" height="" alt="cisco" />
