@@ -47,7 +47,7 @@
 <!-- TemplateBeginEditable name="headstyle" -->headstyle<!-- TemplateEndEditable -->
 
 
-<!-- TemplateBeginEditable name="Content" -->
+
 <div class="Logo"></div>
 
 <div class= "container comicbg ">
@@ -84,19 +84,18 @@
           </div><!--/.nav-collapse -->
         </div>
 </nav>
-
-<div><br />
- <br /><br />
+<!-- TemplateBeginEditable name="Content" -->
+<div>
 </div>
 <div class="row content">
     	<div class="col-md-4 "><h1>Login</h1></div>
         <div class="col-md-4 "><h1>Help</h1></div>
         <div class="col-md-4 "><h1>Halo</h1></div>
 </div>
-
+<!-- TemplateEndEditable -->
 <div class="panel-footer">
 <img src="../Icons/CIsco.png" width="400" height="" alt="cisco" />
 </div>
-<!-- TemplateEndEditable -->
+
 </body>
 </html>
