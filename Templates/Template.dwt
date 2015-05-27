@@ -59,12 +59,13 @@
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="../index.html">Home</a></li>
-              <li><a href="../handbook.html">HandBook</a></li>
-              <li><a href="../Logging in.html">Logging in</a></li>
-              <li><a href="../Tips and Tricks">Tips and tricks</a></li>      
-            
-                </ul>
+                <!-- TemplateBeginEditable name="navbar" -->
+                  <li class="active"><a href="../index.html">Home</a></li>
+                  <li><a href="../handbook.html">HandBook</a></li>
+                  <li><a href="../Logging in.html">Logging in</a></li>
+                  <li><a href="../Tips and Tricks">Tips and tricks</a></li>
+              <!-- TemplateEndEditable -->
+            </ul>
               </li>
             </ul>
           </div><!--/.nav-collapse -->
