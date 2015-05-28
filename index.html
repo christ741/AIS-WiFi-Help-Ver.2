@@ -23,7 +23,7 @@
 
 .content {
 	 
-    margin:10px;
+    margin:5px;
     padding:50px;
 }
 	
@@ -46,8 +46,14 @@
 
 <div class= "container comicbg ">
 
-  <div><!-- InstanceBeginEditable name="titlelogo" --><img src="Title images/TITLE WIFIHELP.png" width="250" height="200" /><!-- InstanceEndEditable --><img src="Icons/Logo.png" alt="Logo" width="548" height="136" align="right" /></div>
-<nav class="navbar navbar-inverse">
+  
+<div class ="row">
+	<div class ="col-md-6 col-sm-6 "><!-- InstanceBeginEditable name="titlelogo" --><img src="Title images/TITLE WIFIHELP.png" width="250" height="200" /><!-- InstanceEndEditable --></div>
+   <div class=" hidden-xl hidden-lg col-sm-6 col-md-6"><img src="Icons/Logo Small.png" alt="Logo"  /></div>
+  <div class="hidden-xs hidden-sm hidden-md col-lg-6"><img src="Icons/Logo.png" alt="Logo"  /></div>
+</div>
+
+<nav class=" col-lg-12 navbar navbar-inverse">
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -76,10 +82,12 @@
 <!-- InstanceBeginEditable name="Content" -->
 
 
-<div class="row content">
-    <iframe width="960" height="720" src="https://www.youtube.com/embed/iplpi224VYI" frameborder="0" allowfullscreen></iframe>
+<div class="row content hidden-xs hidden-sm hidden-md">
+    <iframe width="640" height="480" src="https://www.youtube.com/embed/iplpi224VYI" frameborder="0" allowfullscreen></iframe>
   </div>
-
+<div class="row content hidden-xl hidden-lg">
+    <iframe width="420" height="315"  src="https://www.youtube.com/embed/iplpi224VYI" frameborder="0" allowfullscreen></iframe>
+  </div>
 
 
 <!-- InstanceEndEditable -->
